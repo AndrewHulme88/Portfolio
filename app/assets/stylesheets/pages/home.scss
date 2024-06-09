@@ -15,7 +15,7 @@ p {
 }
 
 .color-blue {
-  color: darkturquoise;
+  color: #037fff;
 }
 
 .fab {
@@ -24,18 +24,32 @@ p {
   border-radius: 100%;
   padding: 10px;
   font-size: 2rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all .5s ease;
+}
+
+.fab:hover {
+  color: #037fff;
+  border-color: #037fff;
 }
 
 .home-area {
   width: 80%;
   background-color: rgb(53, 53, 54);
   height: 100vh;
-  justify-content: center;
 }
 
 .home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
   text-align: center;
-  padding-top: 20vh;
 }
 
 .navbar {

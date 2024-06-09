@@ -1,7 +1,43 @@
 body {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: red;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+p {
+  color: rgba(240, 231, 231, 0.7);
+  font-size: 1.25rem;
+}
+
+.color-blue {
+  color: darkturquoise;
+}
+
+.fab {
+  color: rgba(240, 231, 231, 0.7);
+  border: 2px solid rgba(240, 231, 231, 0.7);
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.home-area {
+  width: 80%;
+  background-color: rgb(53, 53, 54);
+  height: 100vh;
+  justify-content: center;
+}
+
+.home-container {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.navbar {
+  width: 20%;
 }

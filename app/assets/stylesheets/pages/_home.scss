@@ -2,6 +2,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  background-color: rgb(53, 53, 54);
 }
 
 h1 {
@@ -19,6 +20,10 @@ p {
 
 .color-blue {
   color: #037fff;
+}
+
+.color-white {
+  color: #fff;
 }
 
 .fab {
@@ -39,8 +44,8 @@ p {
 
 .home-area {
   width: 80%;
-  background-color: rgb(53, 53, 54);
   height: 100vh;
+  padding-left: 2%;
 }
 
 .home-container {

@@ -1,5 +1,14 @@
 svg {
   color: #037fff;
+  transition: all .5s ease;
+}
+
+svg:hover {
+  color: #037fff;
+  border-color: #037fff;
+  box-shadow: 0 0 10px #037fff;
+  text-shadow: 0 0 5px #037fff;
+  transform: scale(1.1);
 }
 
 .skill-icon p {

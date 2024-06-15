@@ -35,12 +35,37 @@
 .nav-button {
   color: rgba(240, 231, 231, 0.7);
   font-size: 2rem;
+  font-weight: bold;
   line-height: 3.5rem;
   font-family: "Nunito", sans-serif;
   transition: all .5s ease;
-}
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+      to right,
+      #037fff,
+      #037fff 50%,
+      #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  &:before{
+    display:block;
+    content:'';
+    width:0;
+    height:3px;
+    bottom:5px;
+    left:0;
+    bottom:-3px;
+    z-index:0;
+    position:absolute;
+    background:#037fff;
 
-.nav-button:hover {
-  color: #037fff;
-  text-decoration: none;
+  }
+  &:hover{
+    background-position: 0%;
+    text-shadow: 0 0 5px #037fff;
+    &:before{
+      width:100%;
+    }
+  }
 }

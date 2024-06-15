@@ -2,8 +2,11 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  background-color: rgb(53, 53, 54);
+  background-image: url('BackgroundPatternGrey.jpg');
+  background-position: top left;
+  background-size: cover;
 }
+
 
 h1 {
   color: #fff;
@@ -48,6 +51,7 @@ p {
   width: 80%;
   height: 100vh;
   padding-left: 2%;
+  background-color: rgba(53, 53, 54, .5);
 }
 
 .home-container {

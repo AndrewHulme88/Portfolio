@@ -29,6 +29,7 @@ gem "jbuilder"
 gem "bootstrap", "~> 5.2"
 gem "font-awesome-sass", "~> 6.1"
 gem 'sassc-rails'
+gem 'bullet'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
@@ -55,10 +56,10 @@ group :development do
   gem "web-console"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
+  gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
